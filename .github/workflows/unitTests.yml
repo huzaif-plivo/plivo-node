@@ -24,6 +24,7 @@ jobs:
       - run: npm install request
       - run: npm install
       - run: npm test
+      - run: npm install plivo
       
   coverage:
       runs-on: ubuntu-latest
